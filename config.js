@@ -1,3 +1,2 @@
-// Replace these with your real Supabase project values.
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_URL_HERE";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY_HERE";
+const SUPABASE_URL = "https://mtqvbtxqwlmsbvljionr.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im10cXZidHhxd2xtc2J2bGppb25yIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyNDg3OTcsImV4cCI6MjA5MDgyNDc5N30.AzLrI_OAz4e5hpfXaIT4SKw64eQ78Xj4wmL__HjBM9k";
