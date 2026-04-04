@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - NutriEat</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #083d1d, #22c55e);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    textarea {
+      height: 120px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 14px;
+      background: #1db954;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #17a34a;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .back {
+      display: block;
+      margin-bottom: 20px;
+      color: #1db954;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Contact NutriEat</h1>
+    <p>We’d love to hear from you</p>
+  </div>
+
+  <div class="container">
+
+    <a href="index.html" class="back">← Back to Blog</a>
+
+    <form onsubmit="handleSubmit(event)">
+      <label>Name</label>
+      <input type="text" required />
+
+      <label>Email</label>
+      <input type="email" required />
+
+      <label>Message</label>
+      <textarea required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="footer">
+      Or email us directly at <b>support@nutrieat.co.uk</b>
+    </div>
+  </div>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      alert("Thanks! We'll get back to you soon.");
+    }
+  </script>
+
+</body>
+</html>
